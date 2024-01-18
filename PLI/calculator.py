@@ -1,12 +1,9 @@
 import random
 import base64
 
-def calculate(x,floot=False):
+def calculate(x):
     random.seed(48763)
-    if floot:
-        return eval(x)
-    else:
-        return int(eval(x))
+    return int(eval(x))
 # class Table():
 #     def __init__(self):
 #         Table=
