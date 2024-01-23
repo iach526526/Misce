@@ -1,4 +1,6 @@
 import PIL.Image
+import sys
+from pyfiglet import Figlet
 # ascii characters used to build the output text
 ASCII_CHARS = ["@", "#", "G", "%", "?", "*", "+", ";", "~", "_", "."]
 
@@ -48,3 +50,8 @@ def main(new_width=100):
         f.write(ascii_image)
  
 # # run program
+
+if (sys.argv[1]=='TaiwanSocialCreditUP!' and sys.argv[2]=='21612518'):
+    main()
+elif len(sys.argv)!=3:
+    print("Don't random guess,I am always right.\n\t\t\t\t__Each never said")
