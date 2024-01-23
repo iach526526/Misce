@@ -4,5 +4,3 @@ def P2():
     top=141592653
     table=[rad.randint(1,top)for _ in range(300000)]
     return table
-# T=P2()
-# print(T[214269])
